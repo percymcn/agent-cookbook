@@ -210,7 +210,12 @@ The `"required": []` → `["target", "message"]` fix is specifically for the JSO
 
 The hermes-agent repo is usually a git clone. You can use `git log`, `git diff`, and `git stash` to audit changes, but it's not necessary to commit the fix — the schema change is small and the user probably doesn't want a commit trail for config patches. Just make the change and confirm it works.
 
+## GitHub Auth From Remote Credential Host
+
+When the user says GitHub credentials live on pharma5 / Sage (`192.168.1.254`), do not guess the SSH username. First inspect local `~/.ssh/config` for the alias, then verify `gh auth status` remotely, copy only `~/.config/gh/hosts.yml`, chmod it `600`, verify local `gh api user`, and use HTTPS remotes if local GitHub SSH keys are not configured. See `references/pharma5-github-auth-transfer-20260612.md` for the exact pattern and pitfalls.
+
 ## References
 
+- `references/pharma5-github-auth-transfer-20260612.md` — Transfer GitHub CLI auth from pharma5 to this Mac safely, verify it, and push a local repo.
 - `references/pharma4-send-message-fix-20260604.md` — Full session transcript of fixing send_message schema on a Raspberry Pi running Hermes Agent
 - `references/pharma4-privilege-escalation-20260604.md` — Session details of granting sudo, filesystem ownership, and service management to pharma4's Hermes

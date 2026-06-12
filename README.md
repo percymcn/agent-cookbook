@@ -26,6 +26,27 @@ python3 scripts/validate_repo.py
 python3 scripts/build_cookbook.py
 ```
 
+## Installing skills
+
+```bash
+# list all available skills and categories
+python3 scripts/install_skill.py --list
+
+# preview what an install would do (no files changed)
+python3 scripts/install_skill.py --skill domain --dry-run
+
+# install a single skill into ~/.hermes/skills (default target)
+python3 scripts/install_skill.py --skill domain
+
+# install every skill in a category
+python3 scripts/install_skill.py --category trading
+
+# install to a custom directory
+python3 scripts/install_skill.py --skill domain --target ~/my-agent/skills
+```
+
+If the destination already exists, a timestamped backup is created automatically before overwriting.
+
 ## Skill format
 
 Each skill lives at `skills/<category>/<skill-name>/SKILL.md` with YAML frontmatter:
