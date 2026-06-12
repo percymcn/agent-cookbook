@@ -6,6 +6,7 @@ __pycache__/
 .env.*
 *.log
 scripts/build_report.json
+examples/*/out/
 node_modules/
 dist/
 build/

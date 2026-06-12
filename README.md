@@ -65,11 +65,29 @@ sharp `"Use when ..."` trigger is the single highest-leverage edit you can make.
 
 ## Workflows (start here)
 
-- [`workflows/faceless-video-engine.md`](workflows/faceless-video-engine.md) — daily YouTube Shorts/TikTok pipeline.
-- [`workflows/tradeflow-research-pipeline.md`](workflows/tradeflow-research-pipeline.md) — pre-market gameplan generation.
-- [`workflows/cold-outreach.md`](workflows/cold-outreach.md) — find → enrich → send loop.
-- [`workflows/newsletter-pipeline.md`](workflows/newsletter-pipeline.md) — ideation → draft → Beehiiv send.
-- [`workflows/self-improving-agent.md`](workflows/self-improving-agent.md) — Hermes-style skill-health + backlog loop.
+Every workflow has a runnable dry-run example under [`examples/`](examples/).
+Examples are stdlib-only, never call paid APIs, never send / publish, and
+write artifacts to their own `out/` directory.
+
+| Workflow                                                                                       | Runnable example                                                              |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [`workflows/faceless-video-engine.md`](workflows/faceless-video-engine.md)                     | [`examples/faceless-video-engine/`](examples/faceless-video-engine/)           |
+| [`workflows/tradeflow-research-pipeline.md`](workflows/tradeflow-research-pipeline.md)         | [`examples/tradeflow-research-pipeline/`](examples/tradeflow-research-pipeline/) |
+| [`workflows/cold-outreach.md`](workflows/cold-outreach.md)                                     | [`examples/cold-outreach/`](examples/cold-outreach/)                           |
+| [`workflows/newsletter-pipeline.md`](workflows/newsletter-pipeline.md)                         | [`examples/newsletter-pipeline/`](examples/newsletter-pipeline/)               |
+| [`workflows/self-improving-agent.md`](workflows/self-improving-agent.md)                       | [`examples/self-improving-agent/`](examples/self-improving-agent/)             |
+
+Run any one:
+
+```bash
+python3 examples/faceless-video-engine/run.py
+```
+
+Run all (via the validator):
+
+```bash
+python3 scripts/validate_repo.py
+```
 
 ## License
 

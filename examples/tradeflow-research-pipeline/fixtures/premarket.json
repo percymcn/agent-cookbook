@@ -1,0 +1,7 @@
+[
+  {"ticker": "ABCD", "prev_close": 4.21, "premarket": 5.10, "atr14": 0.42, "float_m": 28.0, "sector": "tech", "catalyst": "Q4 beat + raised guidance"},
+  {"ticker": "EFGH", "prev_close": 12.40, "premarket": 13.95, "atr14": 0.85, "float_m": 41.0, "sector": "consumer", "catalyst": "buyout rumor on the wires"},
+  {"ticker": "IJKL", "prev_close": 7.05, "premarket": 7.18, "atr14": 0.31, "float_m": 22.0, "sector": "industrial", "catalyst": "small contract win, low premium flow"},
+  {"ticker": "MNOP", "prev_close": 3.30, "premarket": 4.05, "atr14": 0.28, "float_m": 9.4, "sector": "biotech", "catalyst": "FDA approval"},
+  {"ticker": "QRST", "prev_close": 88.00, "premarket": 88.10, "atr14": 1.65, "float_m": 240.0, "sector": "tech", "catalyst": "none — large cap drift"}
+]

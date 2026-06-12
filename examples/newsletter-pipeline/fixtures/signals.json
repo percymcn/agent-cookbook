@@ -1,0 +1,7 @@
+[
+  {"source": "hn", "title": "Show HN: I built a 60-line agent that outperforms most RAG stacks", "score": 1240},
+  {"source": "reddit-llm", "title": "Anthropic's prompt caching cut our cost 4x — receipts inside", "score": 980},
+  {"source": "x", "title": "Smol agents > giant frameworks: a thread", "score": 7200},
+  {"source": "hn", "title": "Tinker for small fine-tunes finally works on consumer GPUs", "score": 612},
+  {"source": "newsletter", "title": "The unbundling of LangChain into 6 single-purpose libraries", "score": 410}
+]

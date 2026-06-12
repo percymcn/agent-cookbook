@@ -1,0 +1,6 @@
+[
+  {"name": "Alex Rivera", "title": "Head of RevOps", "company": "Northwind Robotics", "size": 180, "funding_stage": "series_b", "signal": "hired 2 SDRs last month", "domain": "example-northwind.test"},
+  {"name": "Sam Chen", "title": "CTO", "company": "Acme Geo", "size": 14, "funding_stage": "seed", "signal": "open-sourced a routing engine on GitHub", "domain": "example-acmegeo.test"},
+  {"name": "Jordan Pak", "title": "VP Marketing", "company": "BluePine Foods", "size": 4200, "funding_stage": "public", "signal": "none", "domain": "example-bluepine.test"},
+  {"name": "Riley Okonkwo", "title": "Founder", "company": "Mintleaf Labs", "size": 6, "funding_stage": "pre_seed", "signal": "wrote a blog post on agent eval last week", "domain": "example-mintleaf.test"}
+]
